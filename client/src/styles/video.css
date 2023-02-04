@@ -1,0 +1,15 @@
+img{
+
+    width: 10px;
+    height: 10px;
+ 
+}
+
+.message{
+    width: 100%;
+    height: calc(100vh - 100px);
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    border-radius: 3px;
+    background: #fbfbfb;
+}

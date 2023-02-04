@@ -1,0 +1,104 @@
+
+.navbar {
+    background-color: #C6EFF9;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  
+  .nav-menu-icon {
+    justify-content: flex-start;
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: rgb(14, 103, 141);
+    max-height: 4rem;
+    background: none;
+  }
+
+  .nav-menu-icon-right {
+
+   justify-content: flex-end;
+    font-size: 2rem;
+    color: rgb(14, 103, 141);
+    max-height: 4rem;
+    background: none;
+  }
+  .nav-item dropdown{
+
+    justify-content: flex-end;
+     font-size: 2rem;
+     color: rgb(14, 103, 141);
+     max-height: 4rem;
+     background: none;
+   }
+
+
+
+  .sidebar-container {
+    background-color: #C6EFF9;
+    width: 14rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 1s;
+    z-index: 10;
+  }
+  
+  .sidebar-container.active {
+    left: 0;
+    transition: 500ms;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3rem;
+    list-style: none;
+    padding: 8px 0px 8px 16px;
+  }
+  
+  .sidebar-sides{
+    margin-left: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+
+  }
+
+  .sidebar-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    border-radius: 4px;
+  }
+  
+  .sidebar-item a:hover {
+    background-color: #B2F5FA;
+  }
+  
+  .sidebar-items {
+    width: 100%;
+  }
+  
+  .sidebar-container .sidebar-toggle {
+    display: flex;
+    height: 60px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  
+  span {
+    padding-left: 0.3rem;
+  }
+  
